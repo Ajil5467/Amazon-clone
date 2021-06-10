@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* injecting a custom utility class */
+@layer components{
+
+    /* create custom link class */
+    .link{
+        /* now all classes with name link have cursor pointer applied */
+        @apply cursor-pointer hover:underline;
+    }
+    .button {
+        @apply p-2 text-xs md:text-sm bg-gradient-to-b from-yellow-200 to-yellow-400 border border-yellow-300 rounded-sm focus:outline-none active:from-yellow-500 font-bold
+    }
+
+}
