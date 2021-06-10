@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Header from "../components/Header";
 import Banner from "../components/Banner";
-import ProductFeed from "../components/ProductFeed";
+// import ProductFeed from "../components/ProductFeed";
 
 export default function Home({products}) {
   return (
@@ -16,7 +16,7 @@ export default function Home({products}) {
       <Banner />
 
      {/* product feed */}
-     <ProductFeed products={products} />
+     {/* <ProductFeed products={products} /> */}
      
    </main>
   
