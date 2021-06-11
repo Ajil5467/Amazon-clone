@@ -5,5 +5,9 @@ module.exports = {
     },
     future: {
         webpack5: true,
-    }
+    },
+
+    resolve: {
+    symlinks: false
+  }
 }
